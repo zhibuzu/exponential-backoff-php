@@ -1,0 +1,25 @@
+{
+    "name": "jessehu/exponential-backoff",
+    "description": "A php library for exponential-backoff algorithm",
+    "keywords": ["php", "exponential-backoff"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhibuzu",
+            "email": "hu2014jesse@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jessehu\\ExponentialBackOff\\": "src",
+            "Jessehu\\ExponentialBackOffTest\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0.0"
+    }
+}
