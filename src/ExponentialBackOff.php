@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 17:50:27
- * @LastEditTime: 2021-03-10 19:52:41
+ * @LastEditTime: 2021-03-10 20:30:25
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /exponential-backoff/src/ExponentialBackOff.php
@@ -112,7 +112,7 @@ class ExponentialBackOff {
      * @param int $delay The microseconds of delay
      * @return void
      */
-    public function delayFunc($delay) {
+    public static function delayFunc($delay) {
         usleep($delay);
     }
 
@@ -122,7 +122,7 @@ class ExponentialBackOff {
      * @param int $attempt 用来计算延迟时间的重试次数
      * @return void
      */
-    public function calcDelayFunc($attempt) {
+    public static function calcDelayFunc($attempt) {
         return min(
             mt_rand(0, 1000000) + (pow(2, $attempt) * 1000000),
             self::MAX_DELAY_MICROSECONDS
