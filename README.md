@@ -1,13 +1,15 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-25 20:41:01
- * @LastEditTime: 2021-02-25 20:46:57
+ * @LastEditTime: 2021-03-10 19:49:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /exponential-backoff/README.md
 -->
 # exponential-backoff-php
 php实现的指数退避算法
+
+> php7+
 
 # Usage
 ```php

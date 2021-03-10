@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-25 17:50:27
- * @LastEditTime: 2021-02-25 20:37:52
+ * @LastEditTime: 2021-03-10 19:52:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /exponential-backoff/src/ExponentialBackOff.php
